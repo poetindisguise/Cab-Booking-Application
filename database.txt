@@ -1,0 +1,34 @@
+ 
+Create table user(
+Name varchar(50),
+PhNo varchar(10),
+Email varchar(50),
+Userid varchar(50) primary key,
+Password varchar(20),
+Wallet varchar(20),
+LastBookin bigint(50)
+);
+Creat table Locations(
+Name varchar(50),
+Points int(50)
+);
+Create table Mini(
+Name varchar(50),
+PhNo varchar(10),
+Rating varchar(5),
+CarNo varchar(20) primary key,
+Car varchar(50),
+CurrentLocation varchar(50),
+LastDropOff bigint(50),
+flag int(2)
+);
+Create table Mini(
+Name varchar(50),
+PhNo varchar(10),
+Rating varchar(5),
+CarNo varchar(20) primary key,
+Car varchar(50),
+CurrentLocation varchar(50),
+LastDropOff bigint(50),
+flag int(2)
+);
